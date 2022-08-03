@@ -1,3 +1,6 @@
+* PyTables issue: https://github.com/PyTables/PyTables/issues/957
+* h5py issue: https://github.com/h5py/h5py/issues/2128
+
 This deadlock was observed in the wild in a real application that was using the following concurrently:
 - pandas `read_hdf`/`to_hdf`
 - a custom data format library using h5py
