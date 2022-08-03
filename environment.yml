@@ -1,0 +1,8 @@
+name: research
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - h5py=3.7.0
+  - pytables=3.7.0
+  - hdf5=1.12.1
